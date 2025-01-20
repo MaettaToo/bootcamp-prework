@@ -4,7 +4,7 @@
     <title>Maetta's Amazing Website</title>
     <style type="text/css">
         body {
-          background: rgb(214, 195, 199));
+          background: rgb(214, 195, 199);
           color: rgba(211, 27, 27, 0.925);
           padding: 10px;
           font-family: arial;
@@ -76,32 +76,54 @@
   text-decoration: none;
   color: #454545;
 }
+        /* portfolio styles */
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #eee;
+} 
+
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
+}
       </style>
   </head>
 
   <body>
     <div id="all-contents">
-        <div id="all-contents">
-            <nav>
-                <main>
-                    <div class="content">
-                      <h1>Portfolio</h1>
-                      <ul id="portfolio">
-                        <!--Interests Status Name -->>
-                      </ul>
-                    </div>
-                  </main> 
-              <header>Maetta's Glorious Website</header>
-              <ul>
-                <li>
-                  <a href="index.html">Home</a>
-                </li>
-                <li>
-                  <a href="portfolio.html">Portfolio</a>
-                </li>
-              </ul>
-            </nav>
-          </div>  
+      <div id="all-contents">
+        <nav>
+          <header>Maetta's Glorious Website</header>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+        <main>
+          <div class="content">
+            <h1>Portfolio</h1>
+            <ul id="portfolio">
+              <!--Projects -->
+            </ul>
+          </div>
+        </main>
+      </div>    
+           
         
     </div>
   </body>
